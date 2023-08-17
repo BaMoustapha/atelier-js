@@ -1,16 +1,18 @@
-function inserNode (balise, texte) {
+let texte = prompt("")
+
+function inserNode (li, texte) {
     const main = document.getElementById("main");
 
-    const balisenode = document.createElement(balise);
+    const linode = document.createElement(li);
 
     const textenode = document.createTextNode(texte);
 
 
-    main.append(balisenode);
-    balisenode.append(texte);
+    main.append(linode);
+    linode.append(texte);
 
 }
 
 console.log(main);
 
-inserNode("p", "Bakeli School of technologie");
+inserNode("li", texte);

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#calculatrice{
+    width: 390px;
+
+}
+
+
+#last{
+    width: 111px;
+}
+
+#part2{
+    margin-top: 20px;
+}
+
+.ba{
+    display: flex;
+    gap: 26px;
+}
+
+.un{
+    display: flex;
+    flex-direction: column;
+}
+.deux{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 6px;
+    margin-bottom: 8px;
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#dia{
+height: 109px;
+}
+
+#part2{
+text-transform: uppercase;
+}
+
+.display input{
+    height: 90px;
+}
+
+@media screen and (max-width = 576px) {
+    #calculatrice{
+        width: 100%;
+    }
+    
+}
+

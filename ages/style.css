@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mauve {
+    color: purple;
+}
+
+label{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+

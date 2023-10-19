@@ -1,0 +1,18 @@
+.table1{
+    margin: auto;
+    display: block;
+}
+
+.table2{
+    margin: auto;
+    display: none;
+}
+
+.table2 h1 {
+    display: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
